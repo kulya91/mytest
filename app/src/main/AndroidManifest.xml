@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test">
+    <!-- 访问系统网络状态权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--拨打电话权限-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/ChenJin">
+        <activity android:name=".activity21.activity21_main"></activity>
+        <activity android:name=".activity11.activity11_litepal" />
+        <activity
+            android:name=".activity11.activity11_old"
+            android:theme="@style/touming" />
+
+        <receiver
+            android:name=".activity10.act10_MyReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.test.HHH" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activity10.activity10_main" />
+
+        <receiver
+            android:name=".activity9.act9_MyReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.test.MY_BROADCAST" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activity9.activity9_main" />
+        <activity android:name=".activity8.activity8_main" />
+        <activity android:name=".activity7.activity_7" />
+        <activity android:name=".activity6.act6_tips" />
+        <activity android:name=".activity6.activity_6" />
+        <activity android:name=".activity5.activity_5" />
+        <activity android:name=".activity2.act2_1" />
+        <activity android:name=".activity4.activity_4" />
+        <activity android:name=".activity3.activity_3" />
+        <activity android:name=".activity2.activity_2" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/NoTitle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

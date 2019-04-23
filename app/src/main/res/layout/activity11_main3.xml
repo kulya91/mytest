@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/create_sql_book2"
+        android:text="创建数据库book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/add_sqldata2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加数据"/>
+    <Button
+        android:id="@+id/updata_sqldata2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更改数据"/>
+    <Button
+        android:id="@+id/remove_sqldata2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除数据"/>
+    <Button
+        android:id="@+id/seclect_sqldata2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询数据"/>
+</LinearLayout>
