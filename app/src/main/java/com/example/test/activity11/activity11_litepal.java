@@ -69,7 +69,7 @@ public class activity11_litepal extends baseactivity implements View.OnClickList
         selectdata.setOnClickListener(this);
         reselect.setOnClickListener(this);
         backselect.setOnClickListener(this);
-        //初始化
+        //listview初始化
         LitePal.getDatabase();
         recyclerView = findViewById(R.id.sqlbook_recycleview);
         layoutManager = new LinearLayoutManager(this);
