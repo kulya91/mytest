@@ -6,7 +6,12 @@ public class Book extends LitePalSupport {
     private String name;
     private int id;
     private float jiage;
-
+public Book(){
+}
+public Book(String name,float jiage){
+    this.name=name;
+    this.jiage=jiage;
+}
     public String getName() {
         return name;
     }

@@ -7,73 +7,74 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
         android:layout_weight="1"
         android:gravity="center|top"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/button_1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="活动实验" />
 
         <Button
             android:id="@+id/button_2"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="控件使用" />
 
         <Button
             android:id="@+id/button_3"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="自定义布局" />
 
         <Button
             android:id="@+id/button_4"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Listview" />
 
         <Button
             android:id="@+id/button_5"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="图表" />
 
         <Button
             android:id="@+id/button_6"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="图表2" />
 
         <Button
             android:id="@+id/button_7"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="碎片" />
 
         <Button
             android:id="@+id/button_8"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="广播" />
 
         <Button
             android:id="@+id/button_9"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="自定义广播" />
 
         <Button
             android:id="@+id/button_10"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="数据库" />
 
         <Button
             android:id="@+id/button_11"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="数据库2" />
     </LinearLayout>
@@ -81,17 +82,20 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:orientation="vertical"
+        android:layout_marginHorizontal="10dp"
+        android:layout_weight="1"
         android:gravity="center|top"
-        android:layout_weight="1">
+        android:orientation="vertical">
+
         <Button
             android:id="@+id/button2_1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="运行时权限" />
+
         <Button
             android:id="@+id/button2_2"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="读取联系人" />
     </LinearLayout>

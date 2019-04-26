@@ -7,14 +7,10 @@
     >
     <Button
         android:id="@+id/act3_button1"
-        android:text="显示图片"
+        android:text="显隐图片"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/act3_button2"
-        android:text="删除图片"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
     <ImageView
         android:id="@+id/act3_image"
         android:layout_width="wrap_content"

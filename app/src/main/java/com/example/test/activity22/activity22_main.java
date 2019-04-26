@@ -38,7 +38,6 @@ public class activity22_main extends baseactivity {
         RecyclerView recyclerView = findViewById(R.id.contact_recycleview);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         ContactAdapter adapter = new ContactAdapter(contactList);
-        Toast.makeText(this, "adapter读取", Toast.LENGTH_SHORT).show();
         recyclerView.setAdapter(adapter);
 
     }
@@ -68,7 +67,6 @@ public class activity22_main extends baseactivity {
                             ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
                     String num = cursor.getString(cursor.getColumnIndex(
                             ContactsContract.CommonDataKinds.Phone.NUMBER));
-
                     contactList.add(new Contact(name, num));
                 }
             }
