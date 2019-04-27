@@ -186,8 +186,9 @@ public class activity11_litepal extends baseactivity implements View.OnClickList
                 break;
             case R.id.back_select:
                 if (selHistory != null && selHistory.size() >= 2) {
-                    bookList = selHistory.get(selHistory.size() - 2);
                     selHistory.remove(selHistory.size() - 1);
+                    bookList = selHistory.get(selHistory.size() - 1);
+
                     updateData();
                 } else
                     Toast.makeText(this, "已到最初无法再返回", Toast.LENGTH_SHORT).show();
@@ -231,10 +232,7 @@ public class activity11_litepal extends baseactivity implements View.OnClickList
         if (initBookList != null)
             bookList = initBookList;
         selHistory.add(bookList);
-        layoutManager.setStackFromEnd(true);//初始化聊天记录出现在最底部
-        adapter = new SqlAdapter(bookList);
-        adapter.setMOnItemClickListener(this);
-        recyclerView.setAdapter(adapter);
+    updateData();
     }
 
 }
