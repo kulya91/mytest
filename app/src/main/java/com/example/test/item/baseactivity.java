@@ -1,9 +1,8 @@
 package com.example.test.item;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.view.MotionEvent;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class baseactivity extends AppCompatActivity {
     private  long lastClickTime;

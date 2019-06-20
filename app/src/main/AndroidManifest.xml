@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.test">
+
     <!-- 访问系统网络状态权限 -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <!-- 拨打电话权限 -->
-    <uses-permission android:name="android.permission.CALL_PHONE" />
-    <!--读取联系人列表权限-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 拨打电话权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- 读取联系人列表权限 -->
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
@@ -18,7 +17,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/ChenJin">
-        <activity android:name=".activity22.activity22_main"></activity>
+        <provider
+            android:name=".item.MyProvider"
+            android:authorities="com.example.test.provider"
+            android:enabled="true"
+            android:exported="true"></provider>
+
+        <activity android:name=".activtiy23.activity23_main" />
+        <activity android:name=".activity22.activity22_main" />
         <activity android:name=".activity21.activity21_main" />
         <activity android:name=".activity11.activity11_litepal" />
         <activity
@@ -60,6 +66,7 @@
             android:theme="@style/NoTitle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

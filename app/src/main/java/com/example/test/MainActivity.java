@@ -18,6 +18,7 @@ import com.example.test.activity6.activity_6;
 import com.example.test.activity7.activity_7;
 import com.example.test.activity8.activity8_main;
 import com.example.test.activity9.activity9_main;
+import com.example.test.activtiy23.activity23_main;
 import com.example.test.item.baseactivity;
 
 public class MainActivity extends baseactivity {
@@ -42,6 +43,7 @@ public class MainActivity extends baseactivity {
         Button button11 = findViewById(R.id.button_11);
         Button button21 = findViewById(R.id.button2_1);
         Button button22 = findViewById(R.id.button2_2);
+        Button button23 = findViewById(R.id.button2_3);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -133,6 +135,13 @@ public class MainActivity extends baseactivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, activity22_main.class);
+                startActivity(intent);
+            }
+        });
+        button23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, activity23_main.class);
                 startActivity(intent);
             }
         });

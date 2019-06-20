@@ -1,8 +1,6 @@
 package com.example.test.activity11;
 
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -20,6 +18,9 @@ import org.litepal.LitePal;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class activity11_litepal extends baseactivity implements View.OnClickListener,
         SqlAdapter.OnItemClickListener, SqlAdapter.OnItemLongClickListener {
@@ -216,7 +217,7 @@ public class activity11_litepal extends baseactivity implements View.OnClickList
         }
         return true;
     }
-
+/*********************数据刷新********************************/
     private void updateData() {
         layoutManager.setStackFromEnd(true);
         adapter = new SqlAdapter(bookList);
@@ -224,7 +225,7 @@ public class activity11_litepal extends baseactivity implements View.OnClickList
         recyclerView.setAdapter(adapter);
     }
 
-    /*****************************************************/
+    /*************************数据初始化****************************/
     private void init() {
         List<Book> initBookList;
         selHistory.clear();
