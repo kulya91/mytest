@@ -103,5 +103,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="内容提供器" />
+        <Button
+            android:id="@+id/button2_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="运用手机多媒体" />
     </LinearLayout>
 </LinearLayout>
