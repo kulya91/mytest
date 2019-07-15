@@ -3,13 +3,13 @@ package com.example.test.activity8;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 import com.example.test.R;
-import com.example.test.item.baseactivity;
+import com.example.test.util.baseactivity;
 
 public class activity8_main extends baseactivity implements View.OnClickListener {
     String str;

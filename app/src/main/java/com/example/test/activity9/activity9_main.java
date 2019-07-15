@@ -10,11 +10,10 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.test.R;
-import com.example.test.item.baseactivity;
+import com.example.test.util.baseactivity;
 
 public class activity9_main extends baseactivity implements View.OnClickListener {
 private IntentFilter intentFilter;

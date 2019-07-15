@@ -1,4 +1,4 @@
-package com.example.test.item;
+package com.example.test.util;
 
 import android.app.Activity;
 

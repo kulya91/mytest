@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.test.R;
-import com.example.test.item.baseactivity;
+import com.example.test.util.baseactivity;
 
 public class activity11_old extends baseactivity implements View.OnClickListener {
     private mydatasql mydatasql;

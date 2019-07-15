@@ -13,6 +13,11 @@
         android:text="调用摄像头"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/act24_photo"
+        android:text="打开相册"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
     <ImageView
         android:id="@+id/act24_picture"
         android:layout_width="wrap_content"

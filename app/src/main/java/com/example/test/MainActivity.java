@@ -12,6 +12,8 @@ import com.example.test.activity2.activity_2;
 import com.example.test.activity21.activity21_main;
 import com.example.test.activity22.activity22_main;
 import com.example.test.activity24.activity24_main;
+import com.example.test.activity25.activity25_main;
+import com.example.test.activity26.activity26_main;
 import com.example.test.activity3.activity_3;
 import com.example.test.activity4.activity_4;
 import com.example.test.activity5.activity_5;
@@ -20,7 +22,7 @@ import com.example.test.activity7.activity_7;
 import com.example.test.activity8.activity8_main;
 import com.example.test.activity9.activity9_main;
 import com.example.test.activtiy23.activity23_main;
-import com.example.test.item.baseactivity;
+import com.example.test.util.baseactivity;
 
 public class MainActivity extends baseactivity {
 
@@ -46,6 +48,8 @@ public class MainActivity extends baseactivity {
         Button button22 = findViewById(R.id.button2_2);
         Button button23 = findViewById(R.id.button2_3);
         Button button24 = findViewById(R.id.button2_4);
+        Button button25 = findViewById(R.id.button2_5);
+        Button button26 = findViewById(R.id.button2_6);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -151,6 +155,20 @@ public class MainActivity extends baseactivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, activity24_main.class);
+                startActivity(intent);
+            }
+        });
+        button25.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, activity25_main.class);
+                startActivity(intent);
+            }
+        });
+        button26.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, activity26_main.class);
                 startActivity(intent);
             }
         });

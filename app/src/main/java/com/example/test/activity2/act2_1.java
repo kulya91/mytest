@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.test.R;
-import com.example.test.item.baseactivity;
+import com.example.test.util.baseactivity;
 
 public class act2_1 extends baseactivity {
 

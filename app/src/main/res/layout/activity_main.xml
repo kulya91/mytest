@@ -108,5 +108,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="运用手机多媒体" />
+        <Button
+            android:id="@+id/button2_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="网络连接" />
+        <Button
+            android:id="@+id/button2_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="异步任务" />
     </LinearLayout>
 </LinearLayout>

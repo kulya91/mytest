@@ -5,7 +5,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.example.test.R;
-import com.example.test.item.baseactivity;
+import com.example.test.util.baseactivity;
 
 public class activity_5 extends baseactivity {
     private String[] data={"1","2","3","4","5","6"

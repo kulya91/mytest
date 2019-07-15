@@ -1,4 +1,4 @@
-package com.example.test.item;
+package com.example.test.util;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;

@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.example.test.R;
 
-import com.example.test.item.baseactivity;
+import com.example.test.util.baseactivity;
 
 public class activity_2 extends baseactivity {
     @Override

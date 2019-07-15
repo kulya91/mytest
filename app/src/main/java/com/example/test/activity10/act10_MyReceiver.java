@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-import com.example.test.item.activitycollector;
+import com.example.test.util.activitycollector;
 
 
 public class act10_MyReceiver extends BroadcastReceiver {
