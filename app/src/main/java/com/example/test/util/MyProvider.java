@@ -7,7 +7,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 
-import com.example.test.activtiy23.MyDatabaseHelper;
+import com.example.test.activity23.MyDatabaseHelper;
 
 public class MyProvider extends ContentProvider {
     public static final int STUDENT_DIR = 0;

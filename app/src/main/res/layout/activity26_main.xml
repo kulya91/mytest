@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent">
 
     <Button
@@ -8,4 +9,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="开始下载" />
+    <Button
+        android:id="@+id/act26_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动服务" />
+    <Button
+        android:id="@+id/act26_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止服务" />
+    <Button
+        android:id="@+id/act26_bind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定" />
+    <Button
+        android:id="@+id/act26_unbind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解绑" />
+    <Button
+        android:id="@+id/act26_intentservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="intentservice" />
+
+
 </LinearLayout>

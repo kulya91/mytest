@@ -11,14 +11,28 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.example.test.util.MyApplication"
+        android:name=".util.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/ChenJin">
-        <activity android:name=".activity26.activity26_main"></activity>
+        <activity android:name=".activity27.activity27_main"></activity>
+
+        <service
+            android:name=".activity27.DownloadService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".activity26.MyIntentService"
+            android:exported="false" />
+        <service
+            android:name=".activity26.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".activity26.activity26_main" />
         <activity android:name=".activity25.activity25_main" />
         <activity android:name=".activity24.activity24_main" />
 
@@ -37,7 +51,7 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <activity android:name=".activtiy23.activity23_main" />
+        <activity android:name=".activity23.activity23_main" />
         <activity android:name=".activity22.activity22_main" />
         <activity android:name=".activity21.activity21_main" />
         <activity android:name=".activity11.activity11_litepal" />
